@@ -1,0 +1,384 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+#page>img{
+    position: absolute;
+    width: 45%;
+   height: 90%;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.navbar {
+    text-align: center;
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+.navbar-brand {
+    color: #0F7194 !important; /* Set text color to #0F7194 */
+}
+
+.navbar-nav {
+    margin: 0 auto; /* Center-align the items */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #0F7194 !important; /* Set text color to #0F7194 */
+}
+
+
+#text{
+    position: relative;
+    top: 15%;
+    left: 7%;
+padding: 30px 50px;
+    height: 75%;
+    width: 35%;
+    scale: 1.3;
+}
+#text>h1{
+    margin-top: 160px;
+    font-size: 70px;
+}
+#text>h2{
+    margin-top: 20px;
+    font-size: 50px;
+    color: #0F7194;
+}
+#text>h4{
+    margin-top: 60px;
+    color: rgb(50, 59, 62);
+    font-size: 18px;
+    font-weight: 500;
+}
+#buttons{
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    left: 0%;
+    bottom: 5%;
+}
+#buttons>button{
+    scale: 1.5;
+    padding: 10px 22px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #000000
+
+}
+#buttons>button>i{
+    font-size: 17px;
+}
+#buttons>#b1{
+    margin-left: 40px;
+}
+#buttons>#b2{
+    background-color: #ffffff;
+    border-width: 2px;
+    margin-left: 100px;
+}
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(23, 23, 23);
+    
+}
+#page1>#left{
+    position:absolute;
+    right: 5%;
+    height: 90%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35%;
+
+}
+#left>.box{
+    height: 33.3%;
+    width: 100%;
+
+    border-top: 2px solid #343434;
+
+}
+.box>h4{
+    color: #0F7194;
+    margin-left: 300px;
+    font-size: 60px;
+    margin-top: 10px;
+}
+.box>h1{
+    color: #ffffff;
+    margin-left: 240px;
+    margin-top: 10px;
+    font-size: 60px;
+}
+.box>h3{
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 300;
+    font-style: normal;
+    width: auto;
+    line-height: 30px;
+}
+
+
+
+
+  
+#skill{
+    scale: 1.3;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    width: 800px;
+    margin-top: 150px;
+    margin-left: 190px;
+    padding: 50px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+    background: #282727;
+    list-style: none;
+    position: absolute;
+    color: #0F7194;
+}
+#skill>h1{
+    text-align: center;
+    font-size: 60px;
+    color: #ffffff;
+    
+
+}
+
+#skill>li{
+    margin: 20px 0;
+    padding: 10px;
+}
+
+
+
+.bar{
+    background: #313131;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgb(0, 0, 0)0%,rgb(24, 122, 149)100%);
+}
+.Photoshop{
+    width: 70%;
+    animation: photoshop 10s;   
+}
+.Illustrator{
+    width: 80%;
+    animation: illustrator 10s;   
+}
+.Indesign{
+    width: 60%;
+    animation: indesign 10s;   
+}
+.Lightroom{
+    width: 40%;
+    animation: Lightroom 10s; 
+}
+@keyframes photoshop {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+
+  @keyframes illustrator {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+
+  @keyframes indesign {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+
+  @keyframes Lightroom {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 60%;
+    }
+}
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+}
+#project{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+    width: 90%;
+    transform: translateX(-50%);
+    bottom: 5%;
+    left: 50%;
+    
+
+}
+.projects{
+    height: 100%;
+    width: 31%;
+    border-top: 4px solid #0F7194;
+    
+
+}
+#text3{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-size: 30px;
+}
+#image{
+    height: 70%;
+    width: 100%;
+    
+}
+#image>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.p2{
+    position: relative;
+    top: -30%;
+}
+.p3{
+    position: relative;
+    top: -60%;
+}
+#text4{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 10%;
+    left: 5%;
+
+
+}
+#text4>h1
+{
+    font-size: 90px;
+    color: #0F7194;
+    margin-top: 20px;
+
+}
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+}
+
+#text5{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-size: 30px;
+    color: #ffffff;
+}
+#text6{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 10%;
+    left: 5%;
+}
+#text6>h1{
+    font-size: 90px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+#page4{
+    height: 75vh;
+    width: 100vw;
+    background-color: #0F7194;
+}
+
+    /* Custom styles for contact form */
+    #contact {
+        text-align: center;
+    }
+
+    #contact .container-xxl {
+        margin: 100px auto; /* Adjust the margin as needed */
+    }
+
+    #contact form {
+        max-width: 800px; /* Set a maximum width for the form */
+        margin: 0 auto; /* Center-align the form */
+        height: 100px;
+    }
+
+    #contact h2, #contact h5 {
+        color: #0F7194; /* Set text color to #0F7194 */
+    }
+
+    /* Adjust the height of the textarea */
+    #contact textarea {
+        height: 500px; /* Set the desired height */
+    }
+
+
+
+  
+  
+ 
+   
+  
